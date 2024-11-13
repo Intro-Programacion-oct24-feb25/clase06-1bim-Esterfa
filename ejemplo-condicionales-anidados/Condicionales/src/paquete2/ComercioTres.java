@@ -49,6 +49,24 @@ public class ComercioTres {
                 + "por favor");
         numeroProductos = entrada.nextInt();
         
+        System.out.println("porcentajeSeguro"
+                + "por favor");
+        porcentajeSeguro = entrada.nextInt();
+        
+        // si da el valor 
+        // opción 1
+        if (porcentajeSeguro >= 1 && porcentajeSeguro <= 15) {
+            porcentajeSeguro = porcentajeSeguro + 0;
+        } else {
+            porcentajeSeguro = 10;
+        }
+        
+        
+        
+       
+        
+        
+        
         // calcular la productividad
         productividad = numeroProductos * coeficiente;
         
