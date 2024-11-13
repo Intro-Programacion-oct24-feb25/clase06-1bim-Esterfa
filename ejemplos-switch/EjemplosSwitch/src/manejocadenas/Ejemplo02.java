@@ -15,8 +15,9 @@ public class Ejemplo02 {
         String pais;
         
         pais = "Ecuador";
-        //      0123456
-        char letra = pais.charAt(0);
+        //      0123456 son los vales que tienen las letras de ecuador 
+        char letra = pais.charAt(6); 
+        // en este caso siempre se cuenta desde 0 
         System.out.printf("%s\n", letra);
         
     }
