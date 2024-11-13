@@ -29,12 +29,12 @@ public class EjemploCadenas02 {
         
         System.out.println("Ingrese la provincia");
         String provincia = entrada.nextLine(); // 
-        
+       // acumula valores dentro de una cadena ya sean tipo numeros como char
         cadenaFinal = String.format("%sProvincia:%s\n",  
                 cadenaFinal,
                 provincia);
         
-        System.out.println("Ingrese la país");
+        System.out.println("Ingrese el país");
         String pais = entrada.nextLine(); // 
         
         cadenaFinal = String.format("%sPaís:%s\n",  
